@@ -1,0 +1,42 @@
+.box{
+    width: 100% !important;
+    background-image: url('../../../assets/images/jumbo_back.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+.obj_img{
+    position: fixed;
+    top: 80px !important;
+    right: 50% !important;
+    align-self: flex-end !important;
+}
+.main_row{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.col_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.txt_block{
+    font-size: 5vw;;
+    padding-top: 8px;
+    font-weight: 700;
+}
+
+.txt_change{
+    margin-left: 20px !important;
+    font-size: 4vw;
+    padding-top: 8px;
+    font-weight: 600;
+}
+
+.txt_inline{
+    display: inline-block !important;
+}

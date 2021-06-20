@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+}
+/* color schemes */
+.c_primary{
+  color: #41E0FD !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.c_secondary{
+  color: #F16D4E !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.c_dark{
+  color: #1A1A1A !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.c_darker{
+  color: #1F1F1F !important;
 }
 
-.App-link {
-  color: #61dafb;
+.c_light{
+  color: #FCFCFC !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg_primary{
+  background-color: #41E0FD !important;
+}
+
+.bg_secondary{
+  background-color: #F16D4E !important;
+}
+
+.bg_dark{
+  background-color: #1A1A1A !important;
+}
+
+.bg_darker{
+  background-color: #1F1F1F !important;
+}
+
+.bg_light{
+  background-color: #FCFCFC !important;
+}
+
+/* flex types */
+.d-flex-center{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.d_flex_left{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.d_flex_right{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+.d_flex_evenly{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+}
+
+.d_flex_between{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.d_flex_around{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
 }

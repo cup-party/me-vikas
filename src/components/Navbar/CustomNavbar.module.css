@@ -1,0 +1,14 @@
+.nav_brand_logo{
+    justify-self: flex-start;
+}
+
+.nav_tab{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    border-bottom: 3px solid  #1A1A1A !important;
+}
+
+.nav_tab:hover{
+    color: #41E0FD !important;
+    border-bottom: 3px solid #41E0FD !important;
+}
