@@ -1,20 +1,20 @@
 .box{
     width: 100% !important;
-    background-image: url('../../../assets/images/jumbo_back.png');
+    background-image: url('../../../assets/images/items/jumbo_back.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-position:right;
     background-size: contain;
+    padding: 6rem 0;
 }
 .obj_img{
-    position: fixed;
+    position:initial;
     top: 80px !important;
     right: 50% !important;
     align-self: flex-end !important;
+    z-index: 1;
 }
 .main_row{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 .col_left{
@@ -25,18 +25,128 @@
 }
 
 .txt_block{
-    font-size: 5vw;;
+    font-size: 2rem;
     padding-top: 8px;
     font-weight: 700;
 }
 
 .txt_change{
-    margin-left: 20px !important;
-    font-size: 4vw;
-    padding-top: 8px;
+    font-size: 2rem;
     font-weight: 600;
+    margin-left: 20px !important;
+    padding-top: 8px;
 }
 
 .txt_inline{
     display: inline-block !important;
+}
+
+.ontop{
+    z-index: 2;
+}
+
+@media screen and (max-width: 280px) {
+    .txt_block{
+        font-size: 1rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 20px !important;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .txt_block{
+        font-size: 1.5rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 20px !important;
+        padding-top: 8px;
+    }
+}
+
+
+@media screen and (min-width: 410px) {
+    .txt_block{
+        font-size: 1.5rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-left: 20px !important;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .txt_block{
+        font-size: 2rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-left: 20px!important;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .txt_block{
+        font-size: 3rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 20px!important;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .txt_block{
+        font-size: 4rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-left: 20px!important;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .txt_block{
+        font-size: 5rem;
+        padding-top: 8px;
+        font-weight: 700;
+    }
+    
+    .txt_change{
+        font-size: 4rem;
+        font-weight: 600;
+        margin-left: 20px!important;
+        padding-top: 8px;
+    }
 }

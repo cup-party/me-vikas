@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import '../../App.css'
 import classes from './CustomNavbar.module.css'
-import logo from '../../assets/images/logo_me.png'
+import logo from '../../assets/images/items/logo_me.png'
 export default function CustomNavbar() {
     return (
         <Navbar sticky="top" expand="lg" className={['bg_dark', 'c_light'].join(' ')}>
@@ -22,8 +22,8 @@ export default function CustomNavbar() {
                     <Nav>
                         <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#home">Me</Nav.Link>
                         <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#about">About</Nav.Link>
-                        <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#skills">Skills</Nav.Link>
-                        <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#journey">Journey</Nav.Link>
+                        <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#services">Services</Nav.Link>
+                        <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#work">Work</Nav.Link>
                         <Nav.Link className={['c_light', classes.nav_tab].join(' ')} href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

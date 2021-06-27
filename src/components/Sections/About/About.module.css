@@ -1,0 +1,69 @@
+.box{
+    width: 100% !important;
+    padding: 4rem 0;
+}
+
+.main_row{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* left */
+.sectionContentBox{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.leftParaHeading{
+    font-size: 32px;
+    font-weight: 700;
+    padding-right: 7rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.leftPara{
+    font-size: 16px;
+}
+
+/* right */
+
+.col_right_1{
+    width: 100% !important;
+    padding-right: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col_right_2{
+    width: 100% !important;
+    padding-left: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btnReachMe{
+    color: #41E0FD;
+    border: 1px solid #41E0FD;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.btnReachMe:hover{
+    transition: 0.5s ease;
+    transform: scale(1.05);
+}
+
+.pawImg{
+    width: 100% !important;
+}

@@ -1,0 +1,34 @@
+.box{
+    width: 100% !important;
+    padding: 4rem 0;
+}
+
+.main_row{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.col_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* left */
+.sectionContentBox{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.leftParaHeading{
+    font-size: 34px;
+    font-weight: 700;
+    padding-right: 7rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.leftPara{
+    font-size: 16px;
+}

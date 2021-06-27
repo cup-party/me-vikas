@@ -1,0 +1,50 @@
+.box{
+    width: 100% !important;
+    padding: 4rem 0;
+}
+
+.main_row{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* left */
+.sectionContentBox{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.leftParaHeading{
+    font-size: 34px;
+    font-weight: 700;
+    padding-right: 7rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.leftPara{
+    font-size: 16px;
+}
+
+/* social media icon */
+.iconBox{
+    display: inline;
+    padding: 8px 0;
+}
+.iconImg{
+    width: 44px;
+    transition: 0.2s ease;
+    margin: 8px;
+}
+
+.iconImg:hover{
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.2);
+}

@@ -1,0 +1,10 @@
+.iconImg{
+    width: 40px;
+    transition: 0.2s;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.iconImg:hover{
+    width: 42px;
+}
